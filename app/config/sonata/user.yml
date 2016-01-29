@@ -1,0 +1,8 @@
+sonata_user:
+    profile:
+        # Customize user portal menu by setting links
+        menu:
+            - { route: 'sonata_user_security_login', label: 'Registration / Login', domain: 'SonataUserBundle'}
+            - { route: 'sonata_user_profile_edit', label: 'link_edit_profile', domain: 'SonataUserBundle'}
+            - { route: 'sonata_user_security_logout', label: 'Logout', domain: 'SonataUserBundle'}
+

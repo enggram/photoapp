@@ -1,0 +1,10 @@
+#
+# more information can be found here http://sonata-project.org/bundles/admin
+#
+sonata_admin:
+    title: Photoapp Admin
+    templates:
+        # default global templates
+        # the layout template include javascript/stylesheet to the formatter bundle,
+        # if you don't need it use the default one: SonataAdminBundle::standard_layout.html.twig
+#        layout:  AppBundle:AdminTemplate:standard_layout.html.twig
